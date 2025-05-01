@@ -21,6 +21,17 @@ If you haven't installed or built KDF yet, follow the instructions at:
 
 ---
 
+## 🔐 Required File: `userpass`
+
+Make sure a file named `userpass` is present in the same directory as the `kdf` binary and scripts.
+
+### File content:
+```bash
+userpass=<KDF-PASSWORD>
+```
+
+> Replace `<KDF-PASSWORD>` with the actual password output from KDF on startup.
+
 ## 🧠 What This Repo Includes
 
 | Script | Description |
